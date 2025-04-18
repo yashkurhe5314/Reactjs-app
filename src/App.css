@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,14 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+
+/* .App {
+  background-color: burlywood;
+} */
+ button{
+  height: 50px;
+  width: 100px;
+  background-color: #282c34;
+  color: white;
+ }
