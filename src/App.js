@@ -1,5 +1,6 @@
 
 import './App.css';
+import logo from './logo.svg';
 
 // function App() {
 //   return (
@@ -23,28 +24,26 @@ import './App.css';
 //     }
 //   );
 // }
-function MyButton() {
+function NavBar() {
   return (
-    // <button onClick={() => alert('Hello, world!')}>I'm a button</button>
-    // <button onClick={() => alert('Hello, world!')}>I'm a button</button>
-    // <div>
-    //   {alert('Hello, world!')}
-    // </div>
     <>
-  {/* Hello world */}
-  <div className="awesome" style={{ border: "1px solid red" }}>
-    <label htmlFor="name">Enter your name: </label>
-    <input type="text" id="name" />
-  </div>
-  <p>Enter your HTML here</p>
-  <div className="awesome" style={{ border: "1px solid red" }}>
-    <label htmlFor="name">Enter your name: </label>
-    <input type="text" id="name" />
-  </div>
-  <p>Enter your HTML here</p>
-</>
+      <div className='Nav-bar'>
+        <div className='logo'>
+          <img src='{logo}'alt="Logo" style={{ height: '40px' }} />
+        </div>
+        <div className='Nav-tab'>
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Location</a>
+              <a class="nav-link" href="#">About Project</a>
+              <a class="nav-link" href="#">Amenities</a>
+              <a class="nav-link" href="#">Floor Plan</a>
+              <a class="nav-link" href="#">Highlights</a>
+              <a class="nav-link" href="#">About Developer</a>
+          </div>
+      </div>
+    </>
 
   );
 }
-export default MyButton;
+export default NavBar;
 

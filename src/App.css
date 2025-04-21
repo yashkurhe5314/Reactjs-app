@@ -40,9 +40,29 @@
 /* .App {
   background-color: burlywood;
 } */
- button{
+ /* button{
   height: 50px;
   width: 100px;
   background-color: #282c34;
   color: white;
  }
+  button:hover{
+    background-color: #61dafb;
+    color: black;
+  } */
+.Nav-bar{
+  margin-top: 20px;
+  display:flex;
+  justify-content: space-between;
+}
+.nav-link{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px;
+}
+.logo{
+  /* margin-right: 200px; */
+}
+
